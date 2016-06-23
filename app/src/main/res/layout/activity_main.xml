@@ -11,7 +11,16 @@
     tools:context="com.softdesign.devtest.MainActivity">
 
     <TextView
+        android:id="@+id/greeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/message_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greeting"
+        android:text="@string/app_name"/>
+
 </RelativeLayout>
