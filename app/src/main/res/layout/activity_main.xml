@@ -23,4 +23,10 @@
         android:layout_below="@id/greeting"
         android:text="@string/app_name"/>
 
+    <View
+        android:layout_below="@+id/message_btn"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@color/colorAccent"/>
+
 </RelativeLayout>
